@@ -1,0 +1,7 @@
+    <div style={{
+      display: 'flex', justifyContent: 'left',   width: '100%', backgroundColor: '#CECECE', top: 0, borderBottom: 'solid 1px lightgray', zIndex: '10'
+  }}>
+      <p style={{ padding: '20px', fontSize: '20px', borderRadius: '0', fontWeight: '600' }} >Daphin</p>
+      {user ? <Button variant="contained" color="error" onClick={handleSignout} >Logout</Button>:<div></div>}
+      <Link style={{ padding: '20px', fontSize: '20px', borderRadius: '0', fontWeight: '600' }} to="profile">Profile</Link>
+  </div>
