@@ -22,7 +22,8 @@
 - **Frontend**: React / Next.js
 - **Styling**: Tailwind CSS
 - **AI Integration**: OpenAI GPT (or similar LLM)
-- **Backend**: Serverless functions / API Routes *(optional or inferred)*
+- **Backend**: Serverless functions / API Routes
+- **DB**: Firebase 
 - **Hosting**: Vercel
 
 ---
@@ -33,7 +34,7 @@ To run locally:
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/daphine.git
+git clone https://github.com/nitin864/daphine.git
 cd daphine
 
 # Install dependencies
